@@ -16,9 +16,11 @@ public class MergeSortedArray {
                  result[k++] = arr2[j++];
              }
          }
+         //if there are any remaining elements in arr1, add it to results
          while(i<arr1.length){
              result[k++] = arr1[i++];
          }
+         //if there are any remaining elements in arr2, add it to results
          while(j<arr2.length){
              result [k++] = arr2[j++];
          }
